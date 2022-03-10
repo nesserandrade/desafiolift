@@ -72,7 +72,7 @@ const Home = () => {
       <table className="table-list">
         <thead>
           <tr>
-            <td colSpan={4} className="list-title">Lista de pedidos</td>
+            <th colSpan={4} className="list-title">Lista de pedidos</th>
           </tr>
           <tr>
             <th>Pedido</th>

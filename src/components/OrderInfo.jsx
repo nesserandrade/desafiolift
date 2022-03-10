@@ -45,31 +45,13 @@ const OrderInfo = () => {
           </tr>
           ))}
         </tbody>
+        <tfoot>
+        <tr className="info-title">
+            <th colSpan={3}>Total</th>
+            <th>{orderItem.orderprice}</th>
+          </tr>
+        </tfoot>
       </table>
-      {/* <table>
-        <thead>
-          <tr className="info-title">
-            <th colSpan={4}>Itens do pedido</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr className="item-list">
-            <th>Código</th>
-            <th>Produto</th>
-            <th>Quantidade</th>
-            <th>Valor</th>
-          </tr>
-          {orderItem.orderitems.map((item) => (
-            <tr>
-            <td>{item.produto.id}</td>
-            <td>{item.produto.nome}</td>
-            <td>{item.quantidade}</td>
-            <td>{item.produto.valor * item.quantidade}</td>
-          </tr>
-          ))}
-          
-        </tbody>
-      </table> */}
     </>
   );
 };

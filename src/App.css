@@ -174,9 +174,12 @@ table {
 
 th {
   max-width: 250px;
+  background-color: rgb(175, 219, 88);
+  text-align: center;
+  padding: 8px;
 }
 
-tr, td, th {
+tr, td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
