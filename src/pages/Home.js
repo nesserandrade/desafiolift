@@ -45,15 +45,9 @@ const Home = () => {
   const [data, setData] = useState([]);
   const { orderItem } = useContext(OrderItemContext);
 
-  console.log(data);
-
   useEffect(() => {
     handleGetData();
   }, []);
-
-  useEffect(() => {
-    console.log(orderItem);
-  }, [orderItem]);
 
   const handleCalcValue = (items) => {
     const total = items.reduce((acc, currentElement) => {
