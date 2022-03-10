@@ -154,7 +154,8 @@ table {
 
 .tr-hover:hover {
   transition: all .5s ease;
-  background-color: rgb(175, 219, 88)
+  background-color: rgb(175, 219, 88);
+  cursor: pointer;
 }
 
 .info-title {
