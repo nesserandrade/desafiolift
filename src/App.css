@@ -142,14 +142,16 @@ table {
   margin: 20px;
   word-wrap: break-word;
   min-width: 500px;
-  max-width: 500px;
+  table-layout: fixed;
+  overflow: hidden;
 }
 
 .table-list {
   margin: 20px;
   word-wrap: break-word;
   min-width: 500px;
-  max-width: 500px;
+  table-layout: fixed;
+  overflow: hidden;
 }
 
 .tr-hover:hover {
