@@ -9,7 +9,7 @@ const OrderInfo = () => {
     <>
       <table className="table-info">
         <thead>
-          <tr className="info-title">
+          <tr>
             <th colSpan={3}>Informações do pedido</th>
             <th>id pedido: {orderItem.order}</th>
           </tr>
@@ -24,7 +24,7 @@ const OrderInfo = () => {
             <td>Data do pedido: {orderItem.date}</td>
             <td>Email: {orderItem.email}</td>
           </tr>
-          <tr className="info-title">
+          <tr>
             <th colSpan={4}>Itens do pedido</th>
           </tr>
           <tr className="item-list">
@@ -46,7 +46,7 @@ const OrderInfo = () => {
           ))}
         </tbody>
         <tfoot>
-        <tr className="info-title">
+        <tr>
             <th colSpan={3}>Total</th>
             <th>{orderItem.orderprice}</th>
           </tr>
