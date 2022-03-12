@@ -155,6 +155,7 @@ table {
   max-width: 250px;
   background-color: rgb(175, 219, 88);
   text-align: center;
+  vertical-align: middle;
 }
 
 .table-info tbody tr td {
@@ -162,6 +163,7 @@ table {
   background-color: rgb(175, 219, 88);
   text-align: center;
   padding: 8px;
+  vertical-align: middle;
 }
 
 .table-info tfoot tr td {
@@ -169,6 +171,7 @@ table {
   background-color: rgb(175, 219, 88);
   text-align: center;
   padding: 8px;
+  vertical-align: middle;
 }
 
 .table-list {
@@ -188,12 +191,14 @@ table {
   max-width: 250px;
   background-color: rgb(175, 219, 88);
   text-align: center;
+  vertical-align: middle;
 }
 
 .table-list tbody tr td {
   max-width: 250px;
   background-color: rgb(175, 219, 88);
   text-align: center;
+  vertical-align: middle;
   padding: 8px;
 }
 
@@ -202,6 +207,7 @@ table {
   background-color: rgb(175, 219, 88);
   text-align: center;
   padding: 8px;
+  vertical-align: middle;
 }
 
 .tr-hover:hover {
